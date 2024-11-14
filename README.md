@@ -40,11 +40,12 @@ La barra de navegación permite a los usuarios desplazarse fácilmente entre las
    git clone https://github.com/usuario/tienda-de-bolsas.git
 
 2. Navega al directorio del proyecto
-   > cd nombre-de-la-carpeta
+   ```bash
+   cd nombre-de-la-carpeta
    
-3. Abre el archivo index.html en tu navegador preferido para visualizar la página
+4. Abre el archivo index.html en tu navegador preferido para visualizar la página
 
 
 ### Imagen del código
-![Imagen del código](https://drive.google.com/file/d/1DFC7Cy-PNMmxIKE6Ck4jtVlwRmtnMBKe/view?usp=sharing)
+![Imagen del código](https://imgur.com/a/vvX6lqX)
 
