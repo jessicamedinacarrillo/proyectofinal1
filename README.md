@@ -1,14 +1,14 @@
-# Tienda de Bolsas - Moda y Sostenibilidad
+# 👝 Tienda de Bolsas - Moda y Sostenibilidad
 Este proyecto es una página web de una tienda de bolsas modernas y sostenibles. La página está organizada en diferentes secciones para presentar las colecciones, una galería de imágenes, testimonios de clientes, información de contacto y una descripción de la empresa.
 
-## Características
+## 📋 Características
 - **Diseño moderno**: La interfaz presenta un estilo limpio y funcional, con diferentes secciones claramente delimitadas.
 - **Colecciones destacadas**: Muestra varias colecciones de bolsas, desde clásicas y elegantes hasta deportivas y ecológicas.
 - **Galería de imágenes**: Una galería visual para mostrar imágenes de los productos destacados.
 - **Sección de testimonios**: Comentarios de clientes que destacan la calidad y estilo de los productos.
 - **Formulario de contacto**: Permite a los usuarios enviar preguntas o solicitar información adicional.
 
-## Estructura de la Página
+## 🏗️ Estructura de la Página
 
 ### Navegación
 La barra de navegación permite a los usuarios desplazarse fácilmente entre las diferentes secciones.
@@ -46,6 +46,6 @@ La barra de navegación permite a los usuarios desplazarse fácilmente entre las
 4. Abre el archivo index.html en tu navegador preferido para visualizar la página
 
 
-### Imagen del código
+### 🖼️ Imagen del código
 ![Imagen del código](Captura-proyecto-final.png)
 
