@@ -47,5 +47,5 @@ La barra de navegación permite a los usuarios desplazarse fácilmente entre las
 
 
 ### Imagen del código
-![Imagen del código](https://imgur.com/a/c-digo-de-pr-ctica-vvX6lqX)
+![Imagen del código](Captura-proyecto-final.png)
 
