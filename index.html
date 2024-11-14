@@ -1,11 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Tienda de bolsas modernas y sostenibles">
+    <title>Tienda de Bolsas - Moda y Sostenibilidad</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Barra de Navegación -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-nosotros">Nosotros</a></li>
+                <li><a href="#new">Lo Nuevo</a></li>
+                <li><a href="#colecciones">Colecciones</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section class="hero" id="inicio">
+        <h1>Bienvenidos a Merval Bolsas</h1>
+        <p>Descubre nuestra colección de bolsas modernas, sostenibles y llenas de estilo para cada ocasión.</p>
+    </section>
+
+    <!-- Sección Sobre Nosotros -->
+    <section class="body" id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En Merval Bolsas, nos apasiona combinar la moda con la sostenibilidad. Cada uno de nuestros productos es cuidadosamente elaborado con materiales respetuosos con el medio ambiente.</p>
+        <p>Nuestra misión es ofrecer opciones elegantes y prácticas para todos los gustos, contribuyendo al cuidado del planeta.</p>
+    </section>
+
+    <!-- Sección Colecciones -->
+    <section class="body" id="colecciones">
+        <h2>Colecciones</h2>
+        <div class="coleccion-container">
+            <div class="coleccion-card">
+                <h3>Clásica</h3>
+                <p>Bolsas con un diseño atemporal y materiales duraderos que nunca pasan de moda. Ideales para quienes buscan estilo sin seguir tendencias, estas piezas complementan cualquier outfit con un toque sobrio.</p>
+            </div>
+            <div class="coleccion-card">
+                <h3>Elegante</h3>
+                <p>Bolsas con detalles refinados y acabados impecables, perfectas para eventos especiales o entornos formales. La colección elegante ofrece un toque de lujo y sofisticación para destacar en cualquier ocasión.</p>
+            </div>
+            <div class="coleccion-card">
+                <h3>Minimalista</h3>
+                <p>Bolsas de diseño simple y funcional, con colores neutros y formas limpias para quienes buscan una estética moderna y versátil.</p>
+            </div>
+            <div class="coleccion-card">
+                <h3>Ecológica</h3>
+                <p>Hechas con materiales sostenibles, nuestras bolsas ecológicas combinan estilo y conciencia ambiental.</p>
+            </div>
+            <div class="coleccion-card">
+                <h3>Deportiva</h3>
+                <p>Diseños resistentes y espaciosos, perfectos para acompañarte en tus actividades deportivas con comodidad y estilo.</p>
+            </div>
+        </div>
+    </section>   
     
+
+    <!-- Sección Galería -->
+    <section class="body" id="galeria">
+        <h2>Galería</h2>
+        <img src="https://img.freepik.com/foto-gratis/pequeno-bolso-estudio-naturaleza-muerta_23-2151046472.jpg?t=st=1731609052~exp=1731612652~hmac=69f90f63407ee1d0b1c9199fbca5b6d4079dfd9557871fb70540cc71f4733172&w=360" alt="Bolsa clásica y elegante">
+        <img src="https://img.freepik.com/foto-gratis/pequeno-bolso-estudio-naturaleza-muerta_23-2151046455.jpg?t=st=1731609027~exp=1731612627~hmac=b593fc2cc8105cc986045d610616fa63872c66921f20c34fa67b4d51e06bfd79&w=360" alt="Bolsa ecológica en tono natural">
+        <img src="https://img.freepik.com/foto-gratis/azulejos-estetica-mediterranea-bolso-mujer_23-2150916688.jpg?t=st=1731609275~exp=1731612875~hmac=353335f8c1c94daf6300e4f4a42621fc231b1b9e5775a05f9b1529fee900da69&w=360" alt="Bolsa minimalista de color neutro">
+        <p>¿No sabes cuál es tú estilo personal? <a href="https://aura7030.com/pages/tipo-de-estilo" target="_blank">Descúbrelo aquí</a>.</p>
+    </section>
+
+    <!-- Sección Testimonios -->
+    <section class="body" id="testimonios">
+        <h2>Testimonios</h2>
+        <blockquote>
+            <p>"Me encanta mi bolsa de la colección ecológica. Es hermosa y ayuda a cuidar el planeta."</p>
+            <cite>- María López</cite>
+        </blockquote>
+        <blockquote>
+            <p>"La calidad y el estilo de las bolsas son excepcionales. Las recomiendo totalmente."</p>
+            <cite>- Ana Fernández</cite>
+        </blockquote>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="body" id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas o necesitas ayuda? ¡Contáctanos!</p>
+        <form action="/enviar" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2024 Tienda de Bolsas - Moda y Sostenibilidad</p>
+    </footer>
+
 </body>
 </html>
